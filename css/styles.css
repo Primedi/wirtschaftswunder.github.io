@@ -10834,3 +10834,8 @@ textarea.form-control-lg {
   background-position: center;
   background-size: 100%;
 }
+
+.cont-op{
+  display: flex;
+}
+
