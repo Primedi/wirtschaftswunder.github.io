@@ -1,185 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Wirtschaftswunder - Die Kneipe</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon2.ico" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body>
-        <!-- Responsive navbar-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dunkelzeug fixed-top" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand" href="#top">Wirtschaftswunder</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item" id="start"><a class="nav-link active" aria-current="page" href="#top">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#termine">Termine</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#opening">Öffnungszeiten</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Kontakt</a></li>
-                        <li class="nav-item"><a class="nav-link" href="impressum.html">Impressum</a></li>
-                    </ul>
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
+    <meta content="" name="description"/>
+    <meta content="" name="author"/>
+    <title>Wirtschaftswunder - Die Kneipe</title>
+    <!-- Favicon-->
+    <link href="assets/favicon2.ico" rel="icon" type="image/x-icon"/>
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet"/>
+</head>
+<body>
+<!-- Responsive navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dunkelzeug fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand" href="#top">Wirtschaftswunder</a>
+        <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button">
+            <span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item" id="start"><a aria-current="page" class="nav-link active" href="#top">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#termine">Termine</a></li>
+                <li class="nav-item"><a class="nav-link" href="#opening">Öffnungszeiten</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Kontakt</a></li>
+                <li class="nav-item"><a class="nav-link" href="impressum.html">Impressum</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Header - set the background image for the header in the line below-->
+<header class="py-5 bg-image-full" id="start"
+        style="background-image: url('./Wirtschaftswunder-bw-richtige-Schrift.svg')">
+    <div class="text-center my-5">
+        <img class="img-fluid rounded-circle mb-4 transparent" src="https://dummyimage.com/150x150/000/fff.png"/>
+        <h1 class="text-black fs-3 fw-bolder"></h1>
+    </div>
+</header>
+<!-- Content section-->
+<section class="py-5">
+    <div class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <h2><b>DIE</b> Kneipe in Iserlohn</h2>
+                <p class="lead">Leute treffen in einer familiären Umgebung, Freude bei Spiel und Musik.</p>
+                <p class="mb-0">Das Wirtschaftswunder ist ein Ort, um sich mit Freunden zu treffen, eine Runde zu
+                    spielen, bei guter Musik und leckerem Bier über das Leben zu reden.</p>
+                <p class="mb-0">Eben eine echte Kneipe.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Image element - set the background image for the header in the line below-->
+<section class="py-5">
+    <div class="bg-image-full" style="background-color: #1d3740">
+        <!--style="background-image: url('./balken-dunkelzeug.svg')" -->
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <h2 class="text-danger fs-3 fw-bolder">!!ACHTUNG!! </br> Krankheitsbedingt ab sofort geänderte
+                    Öffnungszeiten!</h2>
+                <h2 class="text-white fs-3 fw-bolder">Die Raterunden mit Gerlinde finden wie angekündigt statt. Wir
+                    danken Euch für das Verständnis und freuen uns auf Euch.</h2>
+                <p class="text-center"><img class="img-thumbnail" src="closed.jpg"/></p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="py-5" id="termine">
+    <div class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <table class=" fs-5 table-primary table-borderless">
+                    <caption class="caption-top text-black pb-3"><h2>Unsere nächsten Termine</h2></caption>
+                    <thead class="text-black fw-bolder border-bottom">
+                    <tr class="d-lg-table-row">
+                        <td class="border-end d-md-table-cell">Datum</td>
+                        <td class="d-md-table-cell">Veranstaltung</td>
+                    </tr>
+                    </thead>
+                    <tbody>
+
+                    <!--
+                    <tr>
+                        <td class="border-end py-1 pe-3">tt.mm.yyyy</td>
+                        <td class="py-1 ps-3">Raterunde ab 19:30 Uhr, Anmeldung bis 18:45 Uhr möglich</td>
+                    </tr>
+                    -->
+                    <!--<tr>
+                        <td class="border-end py-1 pe-3">21.01.2026</td>
+                        <td class="py-1 ps-3">Konzert "Nutmountain Gramps". Beginn: 20:00 Uhr. Der Eintritt ist frei.</td>
+                    </tr>
+                        -->
+                    <tr>
+                        <td class="border-end py-1 pe-3">04.02.2026</td>
+                        <td class="py-1 ps-3">Raterunde ab 19:30 Uhr, Anmeldung bis 18:45 Uhr möglich</td>
+                    </tr>
+                    <tr>
+                        <td class="border-end py-1 pe-3">18.02.2026</td>
+                        <td class="py-1 ps-3">Raterunde ab 19:30 Uhr, Anmeldung bis 18:45 Uhr möglich</td>
+                    </tr>
+                    <tr>
+                        <td class="border-end py-1 pe-3">18.03.2026</td>
+                        <td class="py-1 ps-3">Raterunde ab 19:30 Uhr, Anmeldung bis 18:45 Uhr möglich</td>
+                    </tr>
+                    <tr>
+                        <td class="border-end py-1 pe-3">01.04.2026</td>
+                        <td class="py-1 ps-3">Raterunde ab 19:30 Uhr, Anmeldung bis 18:45 Uhr möglich</td>
+                    </tr>
+                    <tr>
+                        <td class="border-end py-1 pe-3">15.04.2026</td>
+                        <td class="py-1 ps-3">Raterunde ab 19:30 Uhr, Anmeldung bis 18:45 Uhr möglich</td>
+                    </tr>
+                    <tr>
+                        <td class="border-end py-1 pe-3">29.04.2026</td>
+                        <td class="py-1 ps-3">Raterunde ab 19:30 Uhr, Anmeldung bis 18:45 Uhr möglich</td>
+                    </tr>
+                    <tr>
+                        <td class="border-end py-1 pe-3">13.05.2026</td>
+                        <td class="py-1 ps-3">Raterunde ab 19:30 Uhr, Anmeldung bis 18:45 Uhr möglich</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Content section-->
+<section class="py-5" id="opening">
+    <div class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                    <!-- <p class="lead">Damit Ihr immer wisst, wann unsere Tür für Euch offen steht.</p> -->
+                    <table class=" fs-5 table-primary table-borderless">
+                        <caption class="caption-top text-black pb-3"><h2>Unsere Öffnungszeiten</h2></caption>
+                        <tbody>
+                        <tr>
+                            <td class="border-end py-1 pe-3">Montag</td>
+                            <td class="py-1 ps-3">Ruhetag</td>
+                        </tr>
+                        <tr>
+                            <td class="border-end py-1 pe-3">Dienstag</td>
+                            <td class="py-1 ps-3">Ruhetag</td>
+                        </tr>
+                        <tr>
+                            <td class="border-end py-1 pe-3">Mittwoch</td>
+                            <td class="py-1 ps-3">Alle 2 Wochen geöffnet</td>
+                        </tr>
+                        <tr>
+                            <td class="border-end py-1 pe-3">Donnerstag</td>
+                            <td class="py-1 ps-3">19-22 Uhr</td>
+                        </tr>
+                        <tr>
+                            <td class="border-end py-1 pe-3">Freitag</td>
+                            <td class="py-1 ps-3">19-01 Uhr</td>
+                        </tr>
+                        <tr>
+                            <td class="border-end py-1 pe-3">Samstag</td>
+                            <td class="py-1 ps-3">19-01 Uhr</td>
+                        </tr>
+                        <tr>
+                            <td class="border-end py-1 pe-3">Sonntag</td>
+                            <td class="py-1 ps-3">Ruhetag</td>
+                        </tr>
+                        </tbody>
+                    </table>
+            </div>
+
+            <div class="mapouter">
+                <div class="gmap_canvas">
+                    <iframe class="gmap_iframe" frameborder="0" marginheight="0" marginwidth="0" scrolling="no"
+                            src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Bohnenstr. 9, Iserlohn&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                    <a href="https://embed-googlemap.com">google map embed html</a>
                 </div>
+                <style>.mapouter {
+                    position: relative;
+                    text-align: right;
+                    width: 600px;
+                    height: 400px;
+                }
+
+                .gmap_canvas {
+                    overflow: hidden;
+                    background: none !important;
+                    width: 600px;
+                    height: 400px;
+                }
+
+                .gmap_iframe {
+                    width: 600px !important;
+                    height: 400px !important;
+                }</style>
             </div>
-        </nav>
-        <!-- Header - set the background image for the header in the line below-->
-        <header id="start" class="py-5 bg-image-full" style="background-image: url('./Wirtschaftswunder-bw-richtige-Schrift.svg')">
-            <div class="text-center my-5">
-                <img class="img-fluid rounded-circle mb-4 transparent" src="https://dummyimage.com/150x150/000/fff.png" />
-                <h1 class="text-black fs-3 fw-bolder"></h1>
-            </div>
-        </header>
-        <!-- Content section-->
-        <section class="py-5">
-            <div class="container my-5">
-                <div class="row justify-content-center">
-                    <div class="col-lg-6">
-                        <h2><b>DIE</b> Kneipe in Iserlohn</h2>
-                        <p class="lead">Leute treffen in einer familiären Umgebung, Freude bei Spiel und Musik.</p>
-                        <p class="mb-0">Das Wirtschaftswunder ist ein Ort, um sich mit Freunden zu treffen, eine Runde zu spielen, bei guter Musik und leckerem Bier über das Leben zu reden.</p>
-                        <p class="mb-0">Eben eine echte Kneipe.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Image element - set the background image for the header in the line below-->
-        <section class="py-5">
-            <div class="bg-image-full"  style="background-color: #1d3740" >
-                <!--style="background-image: url('./balken-dunkelzeug.svg')" -->
-                <div class="row justify-content-center">
-                    <div class="col-lg-6">
-                        <h2 class="text-danger fs-3 fw-bolder">!!ACHTUNG!! </br> Krankheitsbedingt ab sofort geänderte Öffnungszeiten!</h2>
-						<h2 class="text-white fs-3 fw-bolder">Die Raterunden mit Gerlinde finden wie angekündigt statt. Wir danken Euch für das Verständnis und freuen uns auf Euch.</h2>
-						<p class="text-center"><img src="closed.jpg" class="img-thumbnail"/></p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="termine" class="py-5">
-            <div class="container my-5">
-                <div class="row justify-content-center">
-                    <div class="col-lg-6">
-                        <table class=" fs-5 table-primary table-borderless">
-                            <caption class="caption-top text-black pb-3"><h2>Unsere nächsten Termine</h2></caption>
-                                <thead class="text-black fw-bolder border-bottom">
-                                    <tr class="d-lg-table-row">
-                                        <td class="border-end d-md-table-cell">Datum</td>
-                                        <td class="d-md-table-cell">Veranstaltung</td>
-                                    </tr>
-                                </thead>
-                            <tbody>
-                            
-							<!--
-							<tr>
-                                <td class="border-end py-1 pe-3">tt.mm.yyyy</td>
-                                <td class="py-1 ps-3">Raterunde ab 19:30 Uhr, Anmeldung bis 18:45 Uhr möglich</td>
-                            </tr>
-							-->
-							<!--<tr>
-                                <td class="border-end py-1 pe-3">21.01.2026</td>
-                                <td class="py-1 ps-3">Konzert "Nutmountain Gramps". Beginn: 20:00 Uhr. Der Eintritt ist frei.</td>
-                            </tr>
-								-->
-								<tr>
-                                <td class="border-end py-1 pe-3">04.02.2026</td>
-                                <td class="py-1 ps-3">Raterunde ab 19:30 Uhr, Anmeldung bis 18:45 Uhr möglich</td>
-                            </tr>
-								<tr>
-                                <td class="border-end py-1 pe-3">18.02.2026</td>
-                                <td class="py-1 ps-3">Raterunde ab 19:30 Uhr, Anmeldung bis 18:45 Uhr möglich</td>
-                            </tr>
-								<tr>
-                                <td class="border-end py-1 pe-3">18.03.2026</td>
-                                <td class="py-1 ps-3">Raterunde ab 19:30 Uhr, Anmeldung bis 18:45 Uhr möglich</td>
-                            </tr>
-								<tr>
-                                <td class="border-end py-1 pe-3">01.04.2026</td>
-                                <td class="py-1 ps-3">Raterunde ab 19:30 Uhr, Anmeldung bis 18:45 Uhr möglich</td>
-                            </tr>
-								<tr>
-                                <td class="border-end py-1 pe-3">15.04.2026</td>
-                                <td class="py-1 ps-3">Raterunde ab 19:30 Uhr, Anmeldung bis 18:45 Uhr möglich</td>
-                            </tr>
-								<tr>
-                                <td class="border-end py-1 pe-3">29.04.2026</td>
-                                <td class="py-1 ps-3">Raterunde ab 19:30 Uhr, Anmeldung bis 18:45 Uhr möglich</td>
-                            </tr>
-								<tr>
-                                <td class="border-end py-1 pe-3">13.05.2026</td>
-                                <td class="py-1 ps-3">Raterunde ab 19:30 Uhr, Anmeldung bis 18:45 Uhr möglich</td>
-                            </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Content section-->
-        <section id="opening" class="py-5">
-            <div class="container my-5">
-                <div class="row justify-content-center">
-                    <div class="col-lg-6">
-                        <h2>Unsere Öffnungszeiten</h2>
-                        <p class="lead">Damit Ihr immer wisst, wann unsere Tür für Euch offen steht.</p>
-                        <div class="cont-op">
-                        <div class="px-1">
-                        <p class="mb-0">Montag:</p>
-                        <p class="mb-0">Dienstag:</p>
-                        <p class="mb-0">Mittwoch:</p>
-                        <p class="mb-0">Donnerstag:</p>
-                        <p class="mb-0">Freitag:</p>
-                        <p class="mb-0">Samstag:</p>
-                        <p class="mb-0">Sonntag:</p>
-                        </div>
-                        <div class="container px-0 mb-0">
-                            <p class="mb-0">Ruhetag</p>
-                            <p class="mb-0">Ruhetag</p>
-                            <p class="mb-0">alle 2 Wochen geöffnet</p>
-                            <p class="mb-0">19-22 Uhr</p>
-                            <p class="mb-0">19-01 Uhr</p>
-                            <p class="mb-0">19-01 Uhr</p>
-                            <p class="mb-0">Ruhetag</p>
-                        </div>
-			<div class="container px-0 mb-0">
-				<p class="mb-0">Wir haben von Sonntag bis Dienstag Ruhetage.</p>
-			</div>
-                        </div>
-                    </div>
-                    <div class="mapouter">
-	                    <div class="gmap_canvas">
-		                    <iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Bohnenstr. 9, Iserlohn&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
-		                    <a href="https://embed-googlemap.com">google map embed html</a>
-	                    </div>
-	                    <style>.mapouter{position:relative;text-align:right;width:600px;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:600px;height:400px;}.gmap_iframe {width:600px!important;height:400px!important;}</style>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Footer-->
-        <footer id="contact" class="py-5 bg-dunkelzeug">
-            <div class="container">
-                <p  class="m-2 text-center text-white">
-                    <!--<a href="#!" target="_blank" title="Instagram" service="instagram" ><img src="./ig-logo.svg" style="width:29px;height:29px;margin-right:15px;"/></a>-->
-                    <a href="https://www.facebook.com/people/Wirtschaftswunder-Iserlohn/61570389794674" target="_blank" title="Facebook" service="facebook" ><img src="./fb-logo.png" style="width:29px;height:29px;margin-right:15px;" /></a>
-		    <a href="mailto:info@wirtschaftswunder-iserlohn.de" target="_blank" title="Mail" service="email" ><img src="./brief.png" style="width:29px;height:29px;margin-right:15px;" /></a>
-		    <a href="tel:+4915167065988" target="_blank" title="Phone" service="phone" ><img src="./phone.png" style="width:29px;height:29px;margin-right:15px;" /></a>
-		    <a href="https://wa.link/gf5hiv" target="_blank" title="Whatsapp" service="whatsapp" ><img src="./whatsapp.png" style="width:29px;height:29px" /></a>
-                </p>
-            </div>    
-            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Wirtschaftswunder - Die Kneipe 2024</p>
-	    <p class="m-0 text-center text-white"><a class="text-white" href="impressum.html">Impressum</a></p>
-	    <p class="m-0 text-center text-white">Telefonnummer: 0151-670 65 988</p>
-	    </div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+        </div>
+    </div>
+</section>
+<!-- Footer-->
+<footer class="py-5 bg-dunkelzeug" id="contact">
+    <div class="container">
+        <p class="m-2 text-center text-white">
+            <!--<a href="#!" target="_blank" title="Instagram" service="instagram" ><img src="./ig-logo.svg" style="width:29px;height:29px;margin-right:15px;"/></a>-->
+            <a href="https://www.facebook.com/people/Wirtschaftswunder-Iserlohn/61570389794674" service="facebook"
+               target="_blank" title="Facebook"><img src="./fb-logo.png"
+                                                     style="width:29px;height:29px;margin-right:15px;"/></a>
+            <a href="mailto:info@wirtschaftswunder-iserlohn.de" service="email" target="_blank" title="Mail"><img
+                    src="./brief.png" style="width:29px;height:29px;margin-right:15px;"/></a>
+            <a href="tel:+4915167065988" service="phone" target="_blank" title="Phone"><img src="./phone.png"
+                                                                                            style="width:29px;height:29px;margin-right:15px;"/></a>
+            <a href="https://wa.link/gf5hiv" service="whatsapp" target="_blank" title="Whatsapp"><img
+                    src="./whatsapp.png" style="width:29px;height:29px"/></a>
+        </p>
+    </div>
+    <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Wirtschaftswunder - Die Kneipe
+        2024</p>
+        <p class="m-0 text-center text-white"><a class="text-white" href="impressum.html">Impressum</a></p>
+        <p class="m-0 text-center text-white">Telefonnummer: 0151-670 65 988</p>
+    </div>
+</footer>
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="js/scripts.js"></script>
+</body>
 </html>
